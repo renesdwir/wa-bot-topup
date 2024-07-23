@@ -1,0 +1,22 @@
+{
+  "name": "bot-wa-topup",
+  "version": "1.0.0",
+  "description": "bot wa for topup games and others",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index --pairing"
+  },
+  "author": "Renes Dwi Riwanto",
+  "license": "ISC",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.5",
+    "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
+    "dayjs": "^1.11.12",
+    "path": "^0.12.7",
+    "pino": "^9.3.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
